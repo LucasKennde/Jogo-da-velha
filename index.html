@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+
+            <article>
+
+                <h1>Jogo da Velha</h1>
+                <div class="grid">
+                    <div id="0" class="celula" onclick="marcar(0,0)"></div>
+                    <div id="1" class="celula" onclick="marcar(0,1)"></div>
+                    <div id="2" class="celula" onclick="marcar(0,2)"></div>
+                    <div id="10" class="celula" onclick="marcar(1,0)"></div>
+                    <div id="11" class="celula" onclick="marcar(1,1)"></div>
+                    <div id="12" class="celula" onclick="marcar(1,2)"></div>
+                    <div id="20" class="celula" onclick="marcar(2,0)"></div>
+                    <div id="21" class="celula" onclick="marcar(2,1)"></div>
+                    <div id="22" class="celula" onclick="marcar(2,2)"></div>
+                </div>
+                <button onclick="reiniciar()">Reiniciar Jogo</button>
+            </article>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>

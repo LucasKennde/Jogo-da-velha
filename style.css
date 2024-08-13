@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Tint&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anton", sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100dvw;
+    height: 100dvh;
+
+    background-color: #f9f9f9;
+}
+article{
+    width: 500px;
+    height: 500px;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.grid {
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #1e2149;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 3px;
+    box-shadow: 0 0 50px 4px #1c1c1c;
+}
+
+.celula {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+
+    border: 1px solid #c1c1c1;
+
+    font-size: 3rem;
+    
+}
+button{
+    background-color: #1e2149;
+    color: #f9f9f9;
+    padding: 1rem 2rem;
+    width: 300px;
+    border: 1px solid #c1c1c1;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 18px;
+
+    &:hover{
+        background-color: #c1c1c1;
+        color: #1e2149;
+    }
+}
+h1{
+    font-size: 3rem;
+}
